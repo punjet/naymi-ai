@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Персональний AI-рекрутер для українського ринку праці — на базі Claude Code",
   "scripts": {
+    "setup": "node setup.mjs",
     "doctor": "node doctor.mjs",
     "verify": "node verify-pipeline.mjs",
     "normalize": "node normalize-statuses.mjs",
