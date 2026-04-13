@@ -51,7 +51,7 @@ The negotiation section provides frameworks for salary discussions. Replace the 
 
 ## Hooks (Optional)
 
-Career-ops can integrate with external systems via Claude Code hooks. Example hooks:
+Naymi AI can integrate with external systems via Claude Code hooks. Example hooks:
 
 ```json
 {
@@ -59,7 +59,7 @@ Career-ops can integrate with external systems via Claude Code hooks. Example ho
     "SessionStart": [{
       "hooks": [{
         "type": "command",
-        "command": "echo 'Career-ops session started'"
+        "command": "echo 'Naymi AI session started'"
       }]
     }]
   }

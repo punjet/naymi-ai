@@ -1,4 +1,4 @@
-module github.com/santifer/career-ops/dashboard
+module github.com/punjet/naymi-ai/dashboard
 
 go 1.24.2
 

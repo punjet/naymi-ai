@@ -50,7 +50,7 @@ Open Claude Code in this directory:
 claude
 ```
 
-Then paste a job offer URL or description. Career-ops will automatically evaluate it, generate a report, create a tailored PDF, and track it.
+Then paste a job offer URL or description. Naymi AI will automatically evaluate it, generate a report, create a tailored PDF, and track it.
 
 ## Available Commands
 
