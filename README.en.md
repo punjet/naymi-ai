@@ -1,4 +1,4 @@
-# AI Recruiter UA
+# Naymi AI
 
 [Українська](README.md) | [Русский](README.ru.md) | [English](README.en.md)
 
@@ -27,8 +27,8 @@ Automates the full job search cycle: portal scanning, offer evaluation, ATS-opti
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-recruiter-ua
-cd ai-recruiter-ua
+git clone https://github.com/YOUR_USERNAME/naymi-ai
+cd naymi-ai
 npm install
 npx playwright install chromium
 ```

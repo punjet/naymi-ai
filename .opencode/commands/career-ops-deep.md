@@ -2,11 +2,11 @@
 description: Deep research about a company
 ---
 
-Deep research about company using career-ops deep mode:
+Deep research about company using naymi-ai deep mode:
 
 $ARGUMENTS
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```

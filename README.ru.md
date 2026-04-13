@@ -1,4 +1,4 @@
-# AI Recruiter UA
+# Naymi AI
 
 [Українська](README.md) | [Русский](README.ru.md) | [English](README.en.md)
 
@@ -26,8 +26,8 @@
 ## Быстрый старт
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-recruiter-ua
-cd ai-recruiter-ua
+git clone https://github.com/YOUR_USERNAME/naymi-ai
+cd naymi-ai
 npm install
 npx playwright install chromium
 ```

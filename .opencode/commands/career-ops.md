@@ -8,7 +8,7 @@ If arguments contain a job description or URL (keywords like "responsibilities",
 
 Otherwise, the discovery menu will be shown.
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```

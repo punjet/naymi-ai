@@ -2,11 +2,11 @@
 description: Batch processing with parallel workers
 ---
 
-Batch processing using career-ops batch mode.
+Batch processing using naymi-ai batch mode.
 
 $ARGUMENTS
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```

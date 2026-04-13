@@ -2,11 +2,11 @@
 description: Evaluate course/cert against North Star
 ---
 
-Evaluate the following training/course using career-ops training mode:
+Evaluate the following training/course using naymi-ai training mode:
 
 $ARGUMENTS
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```

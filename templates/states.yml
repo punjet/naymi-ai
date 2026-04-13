@@ -1,5 +1,5 @@
-# Career-Ops — Canonical States
-# Source of truth for career-ops (writer) and dashboard (reader).
+# Naymi AI — Canonical States
+# Source of truth for naymi-ai (writer) and dashboard (reader).
 # Both systems MUST use these exact states.
 #
 # Rule: The status field in applications.md must contain EXACTLY

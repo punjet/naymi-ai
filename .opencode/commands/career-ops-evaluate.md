@@ -2,11 +2,11 @@
 description: Evaluate job offer (A-F scoring, no auto PDF)
 ---
 
-Evaluate the following job description using career-ops oferta mode:
+Evaluate the following job description using naymi-ai oferta mode:
 
 $ARGUMENTS
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```
