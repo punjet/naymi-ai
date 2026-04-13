@@ -1,11 +1,11 @@
-# 共通コンテキスト -- career-ops（日本語）
+# 共通コンテキスト -- naymi-ai（日本語）
 
 <!-- ============================================================
      THIS FILE IS AUTO-UPDATABLE. Don't put personal data here.
 
      Your customizations go in modes/_profile.md (never auto-updated).
      This file contains system rules, scoring logic, and tool config
-     that improve with each career-ops release.
+     that improve with each naymi-ai release.
      ============================================================ -->
 
 ## 真実のソース（すべての評価前に必ず読む）

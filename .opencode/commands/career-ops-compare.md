@@ -2,11 +2,11 @@
 description: Compare and rank multiple job offers
 ---
 
-Compare the following job offers using career-ops ofertas mode:
+Compare the following job offers using naymi-ai ofertas mode:
 
 $ARGUMENTS
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```

@@ -1,4 +1,4 @@
-# AI Recruiter UA
+# Naymi AI
 
 [Українська](README.md) | [Русский](README.ru.md) | [English](README.en.md)
 
@@ -28,8 +28,8 @@
 
 ```bash
 # 1. Клонувати
-git clone https://github.com/YOUR_USERNAME/ai-recruiter-ua
-cd ai-recruiter-ua
+git clone https://github.com/YOUR_USERNAME/naymi-ai
+cd naymi-ai
 
 # 2. Встановити залежності
 npm install
@@ -123,7 +123,7 @@ https://djinni.co/jobs/XXXXXX-ai-engineer/
 ## Структура проєкту
 
 ```
-ai-recruiter-ua/
+naymi-ai/
 ├── cv.md                    # Твоє CV (канонічне джерело)
 ├── config/
 │   └── profile.yml          # Твій профіль та налаштування

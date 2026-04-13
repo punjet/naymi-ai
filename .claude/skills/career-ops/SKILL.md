@@ -1,12 +1,12 @@
 ---
-name: career-ops
+name: naymi-ai
 description: AI job search command center -- evaluate offers, generate CVs, scan portals, track applications
 user_invocable: true
 args: mode
 argument-hint: "[scan | deep | pdf | oferta | ofertas | apply | batch | tracker | pipeline | contacto | training | project | interview-prep | update]"
 ---
 
-# career-ops -- Router
+# naymi-ai -- Router
 
 ## Mode Routing
 
@@ -42,26 +42,26 @@ If `{{mode}}` is not a sub-command AND doesn't look like a JD, show discovery.
 Show this menu:
 
 ```
-career-ops -- Command Center
+naymi-ai -- Command Center
 
 Available commands:
-  /career-ops {JD}      → AUTO-PIPELINE: evaluate + report + PDF + tracker (paste text or URL)
-  /career-ops pipeline  → Process pending URLs from inbox (data/pipeline.md)
-  /career-ops oferta    → Evaluation only A-F (no auto PDF)
-  /career-ops ofertas   → Compare and rank multiple offers
-  /career-ops contacto  → LinkedIn power move: find contacts + draft message
-  /career-ops deep      → Deep research prompt about company
-  /career-ops pdf       → PDF only, ATS-optimized CV
-  /career-ops training  → Evaluate course/cert against North Star
-  /career-ops project   → Evaluate portfolio project idea
-  /career-ops tracker   → Application status overview
-  /career-ops apply     → Live application assistant (reads form + generates answers)
-  /career-ops scan      → Scan portals and discover new offers
-  /career-ops batch     → Batch processing with parallel workers
-  /career-ops patterns  → Analyze rejection patterns and improve targeting
-  /career-ops followup  → Follow-up cadence tracker: flag overdue, generate drafts
+  /naymi-ai {JD}      → AUTO-PIPELINE: evaluate + report + PDF + tracker (paste text or URL)
+  /naymi-ai pipeline  → Process pending URLs from inbox (data/pipeline.md)
+  /naymi-ai oferta    → Evaluation only A-F (no auto PDF)
+  /naymi-ai ofertas   → Compare and rank multiple offers
+  /naymi-ai contacto  → LinkedIn power move: find contacts + draft message
+  /naymi-ai deep      → Deep research prompt about company
+  /naymi-ai pdf       → PDF only, ATS-optimized CV
+  /naymi-ai training  → Evaluate course/cert against North Star
+  /naymi-ai project   → Evaluate portfolio project idea
+  /naymi-ai tracker   → Application status overview
+  /naymi-ai apply     → Live application assistant (reads form + generates answers)
+  /naymi-ai scan      → Scan portals and discover new offers
+  /naymi-ai batch     → Batch processing with parallel workers
+  /naymi-ai patterns  → Analyze rejection patterns and improve targeting
+  /naymi-ai followup  → Follow-up cadence tracker: flag overdue, generate drafts
 
-Inbox: add URLs to data/pipeline.md → /career-ops pipeline
+Inbox: add URLs to data/pipeline.md → /naymi-ai pipeline
 Or paste a JD directly to run the full pipeline.
 ```
 
@@ -88,7 +88,7 @@ For `scan`, `apply` (with Playwright), and `pipeline` (3+ URLs): launch as Agent
 Agent(
   subagent_type="general-purpose",
   prompt="[content of modes/_shared.md]\n\n[content of modes/{mode}.md]\n\n[invocation-specific data]",
-  description="career-ops {mode}"
+  description="naymi-ai {mode}"
 )
 ```
 

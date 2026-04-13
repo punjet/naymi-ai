@@ -2,9 +2,9 @@
 description: Generate ATS-optimized CV PDF
 ---
 
-Generate ATS-optimized CV using career-ops pdf mode.
+Generate ATS-optimized CV using naymi-ai pdf mode.
 
-Load the career-ops skill:
+Load the naymi-ai skill:
 ```
-skill({ name: "career-ops" })
+skill({ name: "naymi-ai" })
 ```

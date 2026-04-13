@@ -11,8 +11,8 @@
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/santifer/career-ops.git
-cd career-ops
+git clone https://github.com/punjet/naymi-ai.git
+cd naymi-ai
 npm install
 npx playwright install chromium   # Required for PDF generation
 ```
@@ -57,12 +57,12 @@ Then paste a job offer URL or description. Career-ops will automatically evaluat
 | Action | How |
 |--------|-----|
 | Evaluate an offer | Paste a URL or JD text |
-| Search for offers | `/career-ops scan` |
-| Process pending URLs | `/career-ops pipeline` |
-| Generate a PDF | `/career-ops pdf` |
-| Batch evaluate | `/career-ops batch` |
-| Check tracker status | `/career-ops tracker` |
-| Fill application form | `/career-ops apply` |
+| Search for offers | `/naymi-ai scan` |
+| Process pending URLs | `/naymi-ai pipeline` |
+| Generate a PDF | `/naymi-ai pdf` |
+| Batch evaluate | `/naymi-ai batch` |
+| Check tracker status | `/naymi-ai tracker` |
+| Fill application form | `/naymi-ai apply` |
 
 ## Verify Setup
 
