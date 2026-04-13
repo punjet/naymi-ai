@@ -15,6 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const PORT = 3737
 const CONFIG_PATH = path.join(__dirname, 'config/profile.yml')
 const PORTALS_PATH = path.join(__dirname, 'portals.yml')
+const SETUP_DONE_PATH = path.join(__dirname, 'config/.setup-done')
 
 function readYaml(p) {
   try { return yaml.load(fs.readFileSync(p, 'utf8')) || {} } catch { return {} }
@@ -707,6 +708,8 @@ const server = http.createServer(async (req, res) => {
     try {
       const data = await body(req)
       writeYaml(CONFIG_PATH, data)
+      // Mark setup as complete
+      fs.writeFileSync(SETUP_DONE_PATH, new Date().toISOString(), 'utf8')
       res.writeHead(200, CORS); res.end(JSON.stringify({ ok: true }))
     } catch(e) { res.writeHead(400, CORS); res.end(JSON.stringify({ error: e.message })) }
     return
