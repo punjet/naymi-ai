@@ -2,7 +2,7 @@
 description: Compare and rank multiple job offers
 ---
 
-Compare the following job offers using naymi-ai ofertas mode:
+Compare and rank multiple job offers using naymi-ai ofertas mode.
 
 $ARGUMENTS
 

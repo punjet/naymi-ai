@@ -42,26 +42,26 @@ If `{{mode}}` is not a sub-command AND doesn't look like a JD, show discovery.
 Show this menu:
 
 ```
-naymi-ai -- Command Center
+ai-recruiter -- Command Center
 
 Available commands:
-  /naymi-ai {JD}      → AUTO-PIPELINE: evaluate + report + PDF + tracker (paste text or URL)
-  /naymi-ai pipeline  → Process pending URLs from inbox (data/pipeline.md)
-  /naymi-ai oferta    → Evaluation only A-F (no auto PDF)
-  /naymi-ai ofertas   → Compare and rank multiple offers
-  /naymi-ai contacto  → LinkedIn power move: find contacts + draft message
-  /naymi-ai deep      → Deep research prompt about company
-  /naymi-ai pdf       → PDF only, ATS-optimized CV
-  /naymi-ai training  → Evaluate course/cert against North Star
-  /naymi-ai project   → Evaluate portfolio project idea
-  /naymi-ai tracker   → Application status overview
-  /naymi-ai apply     → Live application assistant (reads form + generates answers)
-  /naymi-ai scan      → Scan portals and discover new offers
-  /naymi-ai batch     → Batch processing with parallel workers
-  /naymi-ai patterns  → Analyze rejection patterns and improve targeting
-  /naymi-ai followup  → Follow-up cadence tracker: flag overdue, generate drafts
+  /ai-recruiter {JD}      → AUTO-PIPELINE: evaluate + report + PDF + tracker (paste text or URL)
+  /ai-recruiter pipeline  → Process pending URLs from inbox (data/pipeline.md)
+  /ai-recruiter oferta    → Evaluation only A-F (no auto PDF)
+  /ai-recruiter ofertas   → Compare and rank multiple offers
+  /ai-recruiter contacto  → LinkedIn power move: find contacts + draft message
+  /ai-recruiter deep      → Deep research prompt about company
+  /ai-recruiter pdf       → PDF only, ATS-optimized CV
+  /ai-recruiter training  → Evaluate course/cert against North Star
+  /ai-recruiter project   → Evaluate portfolio project idea
+  /ai-recruiter tracker   → Application status overview
+  /ai-recruiter apply     → Live application assistant (reads form + generates answers)
+  /ai-recruiter scan      → Scan portals and discover new offers
+  /ai-recruiter batch     → Batch processing with parallel workers
+  /ai-recruiter patterns  → Analyze rejection patterns and improve targeting
+  /ai-recruiter followup  → Follow-up cadence tracker: flag overdue, generate drafts
 
-Inbox: add URLs to data/pipeline.md → /naymi-ai pipeline
+Inbox: add URLs to data/pipeline.md → /ai-recruiter pipeline
 Or paste a JD directly to run the full pipeline.
 ```
 

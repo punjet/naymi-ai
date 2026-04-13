@@ -2,13 +2,13 @@
 description: AI job search command center -- show menu or evaluate job description
 ---
 
-Naymi AI router. Arguments provided: "$ARGUMENTS"
+Career-ops router. Arguments provided: "$ARGUMENTS"
 
 If arguments contain a job description or URL (keywords like "responsibilities", "requirements", "qualifications", "about the role", "http", "https"), the skill will execute auto-pipeline mode.
 
 Otherwise, the discovery menu will be shown.
 
-Load the naymi-ai skill:
+Load the career-ops skill:
 ```
 skill({ name: "naymi-ai" })
 ```
