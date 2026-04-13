@@ -125,7 +125,7 @@ claude .      # або: opencode
 
 ---
 
-## Setup Wizard
+## Веб-налаштування
 
 ```bash
 npm run setup
@@ -146,22 +146,23 @@ npm run setup
 
 ## Як це працює
 
-```
-Ти вставляєш URL або текст вакансії
-          │
-          ▼
-  ┌───────────────────────────────────────────────────────┐
-  │                    AUTO-PIPELINE                      │
-  │                                                       │
-  │  1. Оцінка (A–F scoring, 6 блоків)                   │
-  │  2. Звіт → reports/{num}-{company}-{date}.md          │
-  │  3. CV під вакансію → HTML → PDF (Playwright)         │
-  │  4. Запис у трекер → data/applications.md             │
-  └───────────────────────────────────────────────────────┘
-          │
-          ▼
-  Ти отримуєш: оцінку, PDF, трекер-запис
-  Рішення подаватись — за тобою
+```mermaid
+flowchart TD
+    A([Вставляєш URL або текст вакансії]) --> B
+
+    B[Оцінка — scoring A–F\n6 блоків: CV · ролі · зарплата\nкультура · red flags · реальність]
+    B --> C[Звіт\nreports/NNN-company-date.md]
+    B --> D[CV під вакансію\nHTML → PDF через Playwright]
+    B --> E[Запис у трекер\ndata/applications.md]
+
+    C & D & E --> F([Ти отримуєш оцінку, PDF і трекер-запис\nРішення подаватись — за тобою])
+
+    style A fill:#1C1A17,stroke:#C4852A,color:#EDE8DF
+    style F fill:#1C1A17,stroke:#4D9E72,color:#EDE8DF
+    style B fill:#141210,stroke:#2A2720,color:#EDE8DF
+    style C fill:#141210,stroke:#2A2720,color:#EDE8DF
+    style D fill:#141210,stroke:#2A2720,color:#EDE8DF
+    style E fill:#141210,stroke:#2A2720,color:#EDE8DF
 ```
 
 ---
