@@ -114,13 +114,33 @@ cd naymi-ai
 npm install
 npx playwright install chromium
 
-# 3. Відкрити в Claude Code або OpenCode
-code .        # або: opencode
+# 3. Запустити Setup Wizard — налаштувати профіль через браузер
+npm run setup
+
+# 4. Відкрити в Claude Code або OpenCode
+claude .      # або: opencode
 ```
 
 **Потрібно:** [Claude Code](https://claude.ai/code) або [OpenCode](https://opencode.ai) — агент живе в них.
 
-При першому запуску агент сам проведе onboarding: запитає ім'я, email, цільові ролі, зарплату та мову відповідей.
+---
+
+## Setup Wizard
+
+```bash
+npm run setup
+```
+
+Відкриває `http://localhost:3737` — веб-інтерфейс для налаштування проєкту без ручного редагування YAML:
+
+| Крок | Що налаштовується |
+|------|------------------|
+| 1 — Профіль | Ім'я, email, телефон, місто, LinkedIn, заголовок |
+| 2 — Ролі | Цільові ролі, зарплата, формат роботи |
+| 3 — Мова | Мова агента, мова CV, логіка JD output |
+| 4 — Портали | Ключові слова для сканера вакансій |
+
+Зберігає прямо в `config/profile.yml` і `portals.yml`.
 
 ---
 
