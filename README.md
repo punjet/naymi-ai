@@ -6,7 +6,8 @@
 
 <div align="center">
 
-<!-- Замінити на власний банер: assets/banner.png -->
+<img src="assets/banner.png" alt="Naymi AI" width="100%"/>
+
 # 🤖 Naymi AI
 
 ### Персональний AI-рекрутер для українського ринку праці
