@@ -142,11 +142,19 @@ input[type=text], input[type=email], input[type=tel], input[type=number], select
   border-radius: var(--r); padding: 10px 13px;
   font-family: 'DM Sans', sans-serif; font-size: 14px; color: var(--text);
   outline: none; transition: border-color .18s; resize: none;
-  -moz-appearance: textfield;
+  caret-color: var(--accent); -moz-appearance: textfield;
 }
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; }
 input:focus, select:focus, textarea:focus { border-color: var(--accent); }
 input::placeholder, textarea::placeholder { color: var(--text-3); }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--text);
+  -webkit-box-shadow: 0 0 0px 1000px var(--surface-2) inset;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: var(--accent);
+}
 select { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235C5650' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px; -webkit-appearance: none; appearance: none; }
 
 .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
